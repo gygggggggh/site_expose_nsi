@@ -48,11 +48,12 @@ header nav li {
     margin-right: 30px;
 }
 
-header nav li #titre {
+#titre {
     display: table;
     /* height: 100%; */
     float: right;
-    margin-right: 650px;
+    margin-right: 600px;
+    color: rgb(0, 0, 0);
 }
 
 header nav li:last-of-type {
