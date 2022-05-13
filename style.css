@@ -1,6 +1,6 @@
 * {
-    /* list-style: none;
-    text-decoration: none; */
+    list-style: none;
+    text-decoration: none;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -104,6 +104,7 @@ p {
 .center {
     display: flex;
     justify-content: center;
+    margin-bottom: 8px;
 }
 
 
@@ -129,7 +130,7 @@ html {
     position: absolute;
     height: 100%;
     width: 4px;
-    background: #fff;
+    background: rgb(0, 0, 0);
     left: 50%;
     top: 20px;
     transform: translateX(-50%);
@@ -160,7 +161,7 @@ html {
     content: "";
     height: 15px;
     width: 15px;
-    background: #fff;
+    background: rgb(0, 0, 0);
     top: 28px;
     z-index: -1;
     transform: rotate(45deg);
@@ -177,15 +178,15 @@ html {
 .row section .icon,
 .center-line .scroll-icon {
     position: absolute;
-    background: #f2f2f2;
+    background: #000000;
     height: 40px;
     width: 40px;
     text-align: center;
     line-height: 40px;
     border-radius: 50%;
-    color: #3ea0e2;
+    color: #e5f13c;
     font-size: 17px;
-    box-shadow: 0 0 0 4px #fff, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 0 4px rgb(233, 226, 127), inset 0 2px 0 rgba(228, 230, 131, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
 }
 
 .center-line .scroll-icon {
@@ -224,8 +225,8 @@ html {
 
 .row section .bottom a {
     text-decoration: none;
-    background: #3ea0e2;
-    color: #fff;
+    background: #000000;
+    color: rgb(248, 237, 134);
     padding: 7px 15px;
     border-radius: 5px;
     font-weight: 400;
